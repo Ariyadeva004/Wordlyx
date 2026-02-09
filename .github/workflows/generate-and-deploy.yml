@@ -1,0 +1,26 @@
+name: Generate Puzzles
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "generate-*"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run generate:all
+      - run: npm run optimize
+      - name: Commit output
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add dist
+          git commit -m "chore: generate puzzles" || true
+          git push
