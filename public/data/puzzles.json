@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "generatedAt": "2026-02-09T00:00:00Z",
+  "puzzles": [
+    {
+      "id": 1,
+      "title": "Daily Crossword #1",
+      "difficulty": "easy",
+      "gridSize": 5,
+      "grid": [
+        ["C", "A", "T", "", ""],
+        ["", "", "A", "", ""],
+        ["D", "O", "G", "", ""],
+        ["", "", "O", "", ""],
+        ["", "", "W", "", ""]
+      ],
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "answer": "CAT",
+          "clue": "A small domesticated animal that says meow"
+        },
+        {
+          "number": 3,
+          "row": 2,
+          "col": 0,
+          "answer": "DOG",
+          "clue": "A loyal animal often kept as a pet"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "answer": "TAG",
+          "clue": "A children's chasing game"
+        },
+        {
+          "number": 2,
+          "row": 2,
+          "col": 2,
+          "answer": "GOW",
+          "clue": "An old term meaning to stare"
+        }
+      ],
+      "createdAt": "2026-02-09"
+    },
+
+    {
+      "id": 2,
+      "title": "Daily Crossword #2",
+      "difficulty": "medium",
+      "gridSize": 5,
+      "grid": [
+        ["B", "O", "O", "K", ""],
+        ["", "", "R", "", ""],
+        ["P", "A", "G", "E", ""],
+        ["", "", "R", "", ""],
+        ["", "", "A", "", ""]
+      ],
+      "across": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 0,
+          "answer": "BOOK",
+          "clue": "A written or printed work consisting of pages"
+        },
+        {
+          "number": 3,
+          "row": 2,
+          "col": 0,
+          "answer": "PAGE",
+          "clue": "One side of a sheet in a book"
+        }
+      ],
+      "down": [
+        {
+          "number": 1,
+          "row": 0,
+          "col": 2,
+          "answer": "ORG",
+          "clue": "Short for organization"
+        },
+        {
+          "number": 2,
+          "row": 0,
+          "col": 3,
+          "answer": "KERA",
+          "clue": "A genus of monkeys"
+        }
+      ],
+      "createdAt": "2026-02-10"
+    }
+  ]
+}
